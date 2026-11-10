@@ -1,0 +1,18 @@
+return {
+  pink             = "#d3869b",
+  purple           = "#b18cff",
+  blue             = "#6ea8fe",
+  cyan             = "#5ec8d8",
+  green            = "#7dd36f",
+  yellow           = "#f6d365",
+  orange           = "#f29f67",
+  red              = "#ef6f6c",
+  lightest         = "#f8fbff",
+  light_foreground = "#e5edf8",
+  foreground       = "#c7d2e0",
+  dark_foreground  = "#6b7280",
+  comments         = "#4b5563",
+  selection        = "#20252d",
+  light_background = "#181c22",
+  background       = "#111418",
+}

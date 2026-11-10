@@ -180,13 +180,13 @@ function M.load()
     LspInlayHint      = { fg = p.comments, bg = p.light_background },
 
     -- Diff
-    DiffAdd     = { bg = "#1a2a1c" },
-    DiffChange  = { bg = "#1f2633" },
-    DiffDelete  = { bg = "#2d1a1c" },
-    DiffText    = { bg = "#2a3548" },
-    Added       = { fg = p.green },
-    Changed     = { fg = p.yellow },
-    Removed     = { fg = p.red },
+    DiffAdd    = { fg = p.green, bg = p.light_background },
+    DiffChange = { fg = p.yellow, bg = p.selection },
+    DiffDelete = { fg = p.red, bg = p.background },
+    DiffText   = { bg = p.selection },
+    Added      = { fg = p.green },
+    Changed    = { fg = p.yellow },
+    Removed    = { fg = p.red },
 
     -- Gitsigns
     GitSignsAdd    = { fg = p.green },
